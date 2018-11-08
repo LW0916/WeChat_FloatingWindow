@@ -19,6 +19,7 @@
 		3D973E2F21806229003A3E16 /* LWTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D973E2B21806229003A3E16 /* LWTestViewController.m */; };
 		3D973E3021806229003A3E16 /* LWWeChatFloatingBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D973E2D21806229003A3E16 /* LWWeChatFloatingBtn.m */; };
 		3DBFA1122182AF750018D991 /* LWAnimatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFA1112182AF750018D991 /* LWAnimatorView.m */; };
+		3DD3465B219410C8003EA0E5 /* WeChat_FloatingWindow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3465A219410C8003EA0E5 /* WeChat_FloatingWindow.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		3D973E2D21806229003A3E16 /* LWWeChatFloatingBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWeChatFloatingBtn.m; sourceTree = "<group>"; };
 		3DBFA1102182AF750018D991 /* LWAnimatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimatorView.h; sourceTree = "<group>"; };
 		3DBFA1112182AF750018D991 /* LWAnimatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimatorView.m; sourceTree = "<group>"; };
+		3DD3465A219410C8003EA0E5 /* WeChat_FloatingWindow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WeChat_FloatingWindow.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		3D973E2721806229003A3E16 /* FloatingWindow */ = {
 			isa = PBXGroup;
 			children = (
+				3DD3465A219410C8003EA0E5 /* WeChat_FloatingWindow.gif */,
 				3D973E2A21806229003A3E16 /* LWTestViewController.h */,
 				3D973E2B21806229003A3E16 /* LWTestViewController.m */,
 				3D75D07D2181A8B20073A352 /* LWNextViewController.h */,
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD3465B219410C8003EA0E5 /* WeChat_FloatingWindow.gif in Resources */,
 				3D973E1321804805003A3E16 /* LaunchScreen.storyboard in Resources */,
 				3D973E1021804805003A3E16 /* Assets.xcassets in Resources */,
 				3D973E0E218047F6003A3E16 /* Main.storyboard in Resources */,
