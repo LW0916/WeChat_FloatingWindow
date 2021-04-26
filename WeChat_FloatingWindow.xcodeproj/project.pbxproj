@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A1FCE5C74181FA03E923466 /* libPods-WeChat_FloatingWindow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A66F847C7FB80747DDB1039F /* libPods-WeChat_FloatingWindow.a */; };
 		3D75D07F2181A8B20073A352 /* LWNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75D07E2181A8B20073A352 /* LWNextViewController.m */; };
 		3D75D0822181AA6A0073A352 /* LWAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75D0812181AA6A0073A352 /* LWAnimator.m */; };
 		3D973E08218047F6003A3E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D973E07218047F6003A3E16 /* AppDelegate.m */; };
@@ -20,6 +21,7 @@
 		3D973E3021806229003A3E16 /* LWWeChatFloatingBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D973E2D21806229003A3E16 /* LWWeChatFloatingBtn.m */; };
 		3DBFA1122182AF750018D991 /* LWAnimatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFA1112182AF750018D991 /* LWAnimatorView.m */; };
 		3DD3465B219410C8003EA0E5 /* WeChat_FloatingWindow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3DD3465A219410C8003EA0E5 /* WeChat_FloatingWindow.gif */; };
+		657EC3E82636C69100B73CF5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 657EC3E72636C69100B73CF5 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,10 @@
 		3DBFA1102182AF750018D991 /* LWAnimatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAnimatorView.h; sourceTree = "<group>"; };
 		3DBFA1112182AF750018D991 /* LWAnimatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAnimatorView.m; sourceTree = "<group>"; };
 		3DD3465A219410C8003EA0E5 /* WeChat_FloatingWindow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WeChat_FloatingWindow.gif; sourceTree = "<group>"; };
+		657EC3E72636C69100B73CF5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		A66F847C7FB80747DDB1039F /* libPods-WeChat_FloatingWindow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChat_FloatingWindow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9E57363BAECBDCEC45DE155 /* Pods-WeChat_FloatingWindow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat_FloatingWindow.debug.xcconfig"; path = "Target Support Files/Pods-WeChat_FloatingWindow/Pods-WeChat_FloatingWindow.debug.xcconfig"; sourceTree = "<group>"; };
+		F14EEE92DC6CED18BD4015C3 /* Pods-WeChat_FloatingWindow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat_FloatingWindow.release.xcconfig"; path = "Target Support Files/Pods-WeChat_FloatingWindow/Pods-WeChat_FloatingWindow.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A1FCE5C74181FA03E923466 /* libPods-WeChat_FloatingWindow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +71,8 @@
 			children = (
 				3D973E05218047F6003A3E16 /* WeChat_FloatingWindow */,
 				3D973E04218047F6003A3E16 /* Products */,
+				C4559F311E1118F4671D38FB /* Pods */,
+				9CD20362A37A852753F8C3F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +97,7 @@
 				3D973E1121804805003A3E16 /* LaunchScreen.storyboard */,
 				3D973E1421804805003A3E16 /* Info.plist */,
 				3D973E1521804805003A3E16 /* main.m */,
+				657EC3E72636C69100B73CF5 /* Podfile */,
 			);
 			path = WeChat_FloatingWindow;
 			sourceTree = "<group>";
@@ -112,6 +122,23 @@
 			path = FloatingWindow;
 			sourceTree = "<group>";
 		};
+		9CD20362A37A852753F8C3F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A66F847C7FB80747DDB1039F /* libPods-WeChat_FloatingWindow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4559F311E1118F4671D38FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A9E57363BAECBDCEC45DE155 /* Pods-WeChat_FloatingWindow.debug.xcconfig */,
+				F14EEE92DC6CED18BD4015C3 /* Pods-WeChat_FloatingWindow.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,6 +146,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D973E1921804805003A3E16 /* Build configuration list for PBXNativeTarget "WeChat_FloatingWindow" */;
 			buildPhases = (
+				77F2310AC9ECAAA8237C3557 /* [CP] Check Pods Manifest.lock */,
 				3D973DFF218047F6003A3E16 /* Sources */,
 				3D973E00218047F6003A3E16 /* Frameworks */,
 				3D973E01218047F6003A3E16 /* Resources */,
@@ -169,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				657EC3E82636C69100B73CF5 /* Podfile in Resources */,
 				3DD3465B219410C8003EA0E5 /* WeChat_FloatingWindow.gif in Resources */,
 				3D973E1321804805003A3E16 /* LaunchScreen.storyboard in Resources */,
 				3D973E1021804805003A3E16 /* Assets.xcassets in Resources */,
@@ -177,6 +206,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77F2310AC9ECAAA8237C3557 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeChat_FloatingWindow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3D973DFF218047F6003A3E16 /* Sources */ = {
@@ -329,17 +383,18 @@
 		};
 		3D973E1A21804805003A3E16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E57363BAECBDCEC45DE155 /* Pods-WeChat_FloatingWindow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ZAJ7C6M9A;
+				DEVELOPMENT_TEAM = 77S3H8KDB6;
 				INFOPLIST_FILE = WeChat_FloatingWindow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.MovePortalBase.UNICOM.TJ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.MovePortalBase.UNICOM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,17 +403,18 @@
 		};
 		3D973E1B21804805003A3E16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F14EEE92DC6CED18BD4015C3 /* Pods-WeChat_FloatingWindow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5ZAJ7C6M9A;
+				DEVELOPMENT_TEAM = 77S3H8KDB6;
 				INFOPLIST_FILE = WeChat_FloatingWindow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.MovePortalBase.UNICOM.TJ;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bonc.MovePortalBase.UNICOM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

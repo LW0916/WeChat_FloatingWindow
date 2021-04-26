@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WeChat_FloatingWindow.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>1637E5C2989BA576D743B7C76FCDE0790D4EB778</string>
+				<key>dateExpires</key>
+				<string>2024/4/15</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>77S3H8KDB6.com.bonc.MovePortalBase.UNICOM</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>77S3H8KDB6</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>77S3H8KDB6.com.bonc.MovePortalBase.UNICOM</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>WeChat_FloatingWindow.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>99e585e5-e83c-4499-9ee6-02e53e329b2e</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.bonc.MovePortalBase.UNICOM</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>77S3H8KDB6</string>
+				<key>name</key>
+				<string>China United Communications Network Ltd SH Branch</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
