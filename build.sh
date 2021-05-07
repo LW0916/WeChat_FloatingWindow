@@ -33,7 +33,7 @@ method="ad-hoc"
 mobileprovision_name=""
 
 # 项目的bundleID，手动管理Profile时必填
-bundle_identifier="com.bonc.MovePortalBase.UNICOM"
+bundle_identifier="com.bonc.MovePortalBase.UNICOM.SH"
 
 if [ $number == 1 ];then
 build_configuration="Debug"
