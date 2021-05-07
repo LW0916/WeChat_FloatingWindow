@@ -10,8 +10,8 @@
 	<string>enterprise</string>
 	<key>provisioningProfiles</key>
 	<dict>
-		<key>com.bonc.MovePortalBase.UNICOM</key>
-		<string>com.bonc.MovePortalBase.UNICOM</string>
+		<key>com.bonc.MovePortalBase.UNICOM.SH</key>
+		<string>MovePortalBase UNICOM SH</string>
 	</dict>
 	<key>signingCertificate</key>
 	<string>Apple Distribution</string>
@@ -20,7 +20,7 @@
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>77S3H8KDB6</string>
+	<string>5ZAJ7C6M9A</string>
 	<key>thinning</key>
 	<string>&lt;none&gt;</string>
 </dict>
